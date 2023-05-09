@@ -29,7 +29,7 @@ module Icalendar
 
     optional_property :rrule, Icalendar::Values::Recur, true
     optional_property :attach, Icalendar::Values::Uri
-    optional_property :attendee, Icalendar::Values::CalAddress
+    optional_property :attendee, Icalendar::Values::Attendee
     optional_property :categories
     optional_property :comment
     optional_property :contact

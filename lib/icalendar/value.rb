@@ -68,6 +68,7 @@ require_relative 'values/array'
 require_relative 'values/date_or_date_time'
 
 # iCalendar value types
+require_relative 'values/attendee'
 require_relative 'values/binary'
 require_relative 'values/boolean'
 require_relative 'values/date'
